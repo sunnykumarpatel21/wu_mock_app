@@ -1,5 +1,31 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 0rem;
+}
+.landingPage {
+  padding: 2rem;
+  width: 100%;
+}
+.cardItem {
+  padding: 2rem 1rem;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  max-width: 100% !important;
+}
+.cardItem.innerCard:hover{
+  background-color: #808080;
+}
+.cardItem.innerCard {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardItem.innerCard p {
+  margin: 0px;
+  font-size: 16px;
 }
 
 .main {
@@ -113,4 +139,22 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.data_filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.data_filter input{
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+}
+.data_filter p{
+  margin: 10px;
+  font-size: 10px;
 }
