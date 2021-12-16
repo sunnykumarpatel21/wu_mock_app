@@ -6,6 +6,9 @@ body {
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.container {
+    max-width: 50%;
+}
 .form-container {
     position: absolute;
     top: 15vh;
