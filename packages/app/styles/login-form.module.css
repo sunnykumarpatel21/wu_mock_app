@@ -1,11 +1,3 @@
-html,
-body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 .form-container {
     position: absolute;
     top: 15vh;
@@ -16,7 +8,7 @@ body {
 }
 
 .bg {
-    background-color: white;
+    background-color: gold;
     width: 100%;
     height: 100vh;
     background-size: 100%;
